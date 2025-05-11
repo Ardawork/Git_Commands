@@ -1,0 +1,46 @@
+pwd
+ls
+cd 
+mkdir 
+rm 
+rm -rf file_name 
+help 
+git init
+git status 
+ls -la
+git add
+git commit
+git rm --cached file_name
+git add .
+git commit -m "message"
+git log
+git restore file_name
+git branch
+git branch _branch_name_you_wanna_create
+git switch branch_name
+git checkout commit_name
+git merge branch_name // this command merges the branch that you enter with the branch that you are in
+q
+git config --global user.name
+git config --global user.email 
+echo "text which you wanna write" > file // THİS WRİTES
+echo "text which you wanna write" >> file // THİS INSERTS
+git log -p file_name
+git checkout commit_ID 
+git reset --hard commit_ID >>> KALICI SİLER
+git revert commit_ID >>> PROJEYE DAHİL ETMEZ
+git remote add origin link
+git push origin branch_name
+git pull getiriyo gösteriyo merge ediyo
+git fetch kontrol ediyo (senin dosyaların ilerde mi geride mi , statusta görülebiliyo)
+
+git pull = git fetch + merge
+
+eğer githubda yayınlamak istemediğin / reponda olmasını istemediğin bir dosyan varsa touch .gitignore yazıp , oluşturduğun .gitignore dosyasına echo ile gizlemek istediğin dosyanın tam adını yazıp gizleyebilirsin
+________________________NOTES___________________________
+
+eğer git status yaptığında fatal ile başlayan ve git ile alakalı herhangi bir işlem olmadığı bilgisini döndüren bir şey söylüyorsa git init yapabiliriz ama tam tersi bi durum olduğunda git init yaparsak save edilmiş dosyalarımız karışabilir / bozulabilir
+
+en nihayetinde git bir save aracıdır
+
+DAHA DETAYLI ÖĞRENMEK İÇİN UDEMYE GİT
